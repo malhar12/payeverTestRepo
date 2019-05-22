@@ -1,0 +1,20 @@
+<div class="user-wrapper">
+
+
+  <div class="user-details">
+    <div class="left-details">
+      <span><img [src]="user?.avatar" /></span>
+    </div>
+    <div class="right-details">
+      <div>
+        <span>User ID: </span><span>{{user?.id}}</span>
+      </div>
+      <div><span>First Name: </span><span>{{user?.first_name}}</span></div>
+      <div><span>Last Name: </span><span>{{user?.last_name}}</span></div>
+      <div><span>Email ID: </span><span>{{user?.email}}</span></div>
+      <div>
+        <button (click)="goBack()">back</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="list-wrapper">
+  <div class="list-container">
+    <div *ngFor="let user of users">
+      <list-item-component [user]="user"></list-item-component>
+    </div>
+    <a *ngFor="let pagelink of pages" href="" (click)="goToPage($event, pagelink)">{{pagelink}}</a>
+  </div>
+</div>

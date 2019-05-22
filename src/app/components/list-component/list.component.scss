@@ -1,0 +1,11 @@
+.list-wrapper {
+  text-align: center;
+  .list-container {
+    display: inline-block;
+    margin-top: 10%;
+    max-width: 800px;
+    width: 370px;
+    background-color: grey;
+    border: 1px solid #cce;
+  }
+}

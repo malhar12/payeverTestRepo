@@ -1,0 +1,11 @@
+.list-item-container {
+  div {
+    margin: 0 5px 0 5px;
+    display: inline-block;
+  }
+}
+
+.list-item-container:hover{
+  background-color: white;
+  cursor: pointer;
+}
